@@ -14,8 +14,9 @@ namespace HelloWorld
 	{
         public GreetingPage()
         {
-            InitializeComponent();
             slider.Value = 0.5;
+            InitializeComponent();
+            
             var x = new OnPlatform<Thickness>
             {
                 Android = new Thickness(0),
