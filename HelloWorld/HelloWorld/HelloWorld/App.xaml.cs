@@ -13,7 +13,7 @@ namespace HelloWorld
 		{
 			InitializeComponent();
 
-			MainPage = new HelloWorld.GreetingPage();
+			MainPage = new HelloWorld.GridPage();
 		}
 
 		protected override void OnStart ()

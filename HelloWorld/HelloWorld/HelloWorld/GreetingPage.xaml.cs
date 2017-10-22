@@ -17,12 +17,12 @@ namespace HelloWorld
             slider.Value = 0.5;
             InitializeComponent();
             
-            var x = new OnPlatform<Thickness>
+            /*var x = new OnPlatform<Thickness>
             {
                 Android = new Thickness(0),
                 iOS = new Thickness(0, 20, 0, 0)
             };
-            Padding = x;
+            Padding = x;*/
 		}
 	}
 }
