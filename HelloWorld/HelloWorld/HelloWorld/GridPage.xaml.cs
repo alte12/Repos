@@ -20,8 +20,23 @@ namespace HelloWorld
                 RowSpacing = 20,
                 ColumnSpacing = 40
             };
-            grid.Children.Add(new Label { Text = "Label 1" }, 0, 0);
-            Grid.SetRowSpan();
-		}
+            Label label1 = new Label { Text = "Label 1" };
+            grid.Children.Add(label1, 0, 0);
+            Grid.SetRowSpan(label1,2);
+            Grid.SetColumn(label1, 2);            
+            grid.RowDefinitions.Add(new RowDefinition
+            {
+                Height = new GridLength(100, GridUnitType.Absolute)
+            });
+            grid.RowDefinitions.Add(new RowDefinition
+            {
+                Height = new GridLength(2, GridUnitType.Star)
+            });
+            grid.RowDefinitions.Add(new RowDefinition
+            {
+                Height = new GridLength(1, GridUnitType.Auto)
+            });
+
+        }
 	}
 }

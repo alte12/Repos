@@ -5,7 +5,7 @@ using System.Text;
 
 using Xamarin.Forms;
 
-namespace HelloWorld
+namespace Exercices
 {
 	public partial class App : Application
 	{
@@ -13,7 +13,7 @@ namespace HelloWorld
 		{
 			InitializeComponent();
 
-			MainPage = new HelloWorld.AbsolutePage();
+			MainPage = new Exercices.StackPage2();
 		}
 
 		protected override void OnStart ()
