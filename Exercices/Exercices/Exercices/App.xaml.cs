@@ -13,7 +13,7 @@ namespace Exercices
 		{
 			InitializeComponent();
 
-			MainPage = new Exercices.StackPage2();
+			MainPage = new Exercices.AbsolutePage();
 		}
 
 		protected override void OnStart ()
