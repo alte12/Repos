@@ -6,32 +6,40 @@
     
     <ContentPage.Content>
         <AbsoluteLayout>
-            <StackLayout AbsoluteLayout.LayoutBounds="0,0,1,.33" 
+            <Grid AbsoluteLayout.LayoutBounds="0,0,1,.33" 
                          AbsoluteLayout.LayoutFlags="All"
                          BackgroundColor="#f7f7f7"
                          HorizontalOptions="Fill"
                          VerticalOptions="Fill">
 
                 <Label Text="$11.95" TextColor="#33353a" 
-                       FontSize="40" FontAttributes="Bold"
+                       FontSize="60" FontAttributes="Bold"
                        HorizontalOptions="Center"
                        VerticalOptions="Center"
                        
                        />
-                <Button BackgroundColor="#1695A3" BorderRadius="30"
-                        HeightRequest="30" FontSize="8" TextColor="White"  
+                <Button BackgroundColor="#1695A3" BorderRadius="20"
+                        HeightRequest="40" FontSize="15" TextColor="White"  
                         FontAttributes="Bold" Text="Add $7.99 Credit"
                         HorizontalOptions="Center"
-                        VerticalOptions="Center"                        
+                        VerticalOptions="End" 
+                        
                        />
-
-
-            </StackLayout>
+                
+            </Grid>
             <StackLayout AbsoluteLayout.LayoutBounds="0,1,1,.67"
                          AbsoluteLayout.LayoutFlags="All"
-                         >
-                
+                         Padding="20">
 
+                <Label FontSize="15" FontAttributes="Bold"
+                    Text="Why pay for credit?"
+                    HorizontalOptions="Center"
+                       />
+                <Label FontSize="13" HorizontalTextAlignment="Center">
+                    Because you can reach people who aren’t on
+SkyApp by calling mobile and landline
+numbers, or spending SMS, at low-cost rates.
+                </Label>
             </StackLayout>
         </AbsoluteLayout>
     </ContentPage.Content>
