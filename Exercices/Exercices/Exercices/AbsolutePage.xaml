@@ -4,9 +4,9 @@
              x:Class="Exercices.AbsolutePage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <AbsoluteLayout>
+                
+            </AbsoluteLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

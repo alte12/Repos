@@ -9,6 +9,10 @@
     <Import_RootNamespace>Exercices</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AbsolutePage2.xaml.cs">
+      <SubType>Code</SubType>
+      <DependentUpon>AbsolutePage2.xaml</DependentUpon>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)AbsolutePage.xaml.cs">
       <DependentUpon>AbsolutePage.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -27,6 +31,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)AbsolutePage2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
