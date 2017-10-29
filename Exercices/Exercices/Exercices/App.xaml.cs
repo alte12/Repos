@@ -12,8 +12,7 @@ namespace Exercices
 		public App ()
 		{
 			InitializeComponent();
-
-			MainPage = new Exercices.AbsolutePage();
+			MainPage = new Exercices.AbsolutePage2();
 		}
 
 		protected override void OnStart ()
