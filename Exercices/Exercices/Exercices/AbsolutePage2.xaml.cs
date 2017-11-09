@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace Exercices
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class AbsoluteLayout : ContentPage
+	public partial class AbsolutePage2 : ContentPage
 	{
-		public AbsoluteLayout ()
+		public AbsolutePage2 ()
 		{
 			InitializeComponent ();
 		}

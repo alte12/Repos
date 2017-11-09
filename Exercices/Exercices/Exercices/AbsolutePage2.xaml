@@ -2,12 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Exercices.AbsolutePage2"
-             BackgroundImage="http://lorempixel.com/1920/1080/nature/7/"
              >
-
-    <AbsoluteLayout>
-
-
-    </AbsoluteLayout>
-
+           
+        <AbsoluteLayout>
+            <Label FontSize="30" Text="Relax" 
+                   AbsoluteLayout.LayoutBounds="20,0,0,0"
+                   />
+                        
+        </AbsoluteLayout>
+    
 </ContentPage>
